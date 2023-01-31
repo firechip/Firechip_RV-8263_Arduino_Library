@@ -13,7 +13,7 @@
   The RTC is set using the sum of the Unix (UTC) Epoch and the time zone.
   The time zone is set in quarter hours (increments 15 mins).
   If your time zone is 7 hours behind UTC, the offset is -28.
-  The time zone is stored in battery-backed memory inside the RV8803.
+  The time zone is stored in battery-backed memory inside the RV8263.
   You can also set the RTC using your local epoch, in which case the time zone is
   ignored when setting the RTC but the ISO8601 timestamp will still be correct.
 
@@ -31,9 +31,9 @@
 
 //#define useAVR // Uncomment this line if you are running this on an older AVR-like board
 
-#include <SparkFun_RV8803.h> //Get the library here: http://librarymanager/All#SparkFun_RV8803
+#include <FC000XXXXXXX.h> //Get the library here: http://librarymanager/All#SparkFun_RV8263
 
-RV8803 rtc;
+RV8263 rtc;
 
 void setup()
 {

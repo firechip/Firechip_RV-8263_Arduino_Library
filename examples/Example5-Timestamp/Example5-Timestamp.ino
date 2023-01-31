@@ -17,9 +17,9 @@
     Open the serial monitor at 115200 baud
 */
 
-#include <SparkFun_RV8803.h> //Get the library here:http://librarymanager/All#SparkFun_RV-8803
+#include <FC000XXXXXXX.h> //Get the library here:http://librarymanager/All#SparkFun_RV-8803
 
-RV8803 rtc;
+RV8263 rtc;
 
 void setup()
 {
@@ -35,7 +35,7 @@ void setup()
   }
   Serial.println("RTC online!");
   
-  rtc.setEVIEventCapture(RV8803_ENABLE); //Enables the Timestamping function
+  rtc.setEVIEventCapture(RV8263_ENABLE); //Enables the Timestamping function
   rtc.setEVIDebounceTime(EVI_DEBOUNCE_256HZ); //Debounce the button with a 3.9 ms(256 Hz) sampling period, other options are EVI_DEBOUNCE_NONE, EVI_DEBOUNCE_64HZ, and EVI_DEBOUNCE_8HZ
   //rtc.setEVIEdgeDetection(RISING_EDGE); // Uncomment to set event detection to button release instead of press
 }

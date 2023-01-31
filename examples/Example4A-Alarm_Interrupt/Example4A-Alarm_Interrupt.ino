@@ -18,9 +18,9 @@
     Open the serial monitor at 115200 baud
 */
 
-#include <SparkFun_RV8803.h> //Get the library here:http://librarymanager/All#SparkFun_RV-8803
+#include <FC000XXXXXXX.h> //Get the library here:http://librarymanager/All#SparkFun_RV-8803
 
-RV8803 rtc;
+RV8263 rtc;
 
 //Make sure to change these values to the decimal values that you want to match
 uint8_t minuteAlarmValue = 55; //0-60, change this to a minute or two from now to see the alarm get generated

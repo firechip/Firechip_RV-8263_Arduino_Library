@@ -1,0 +1,45 @@
+{
+  "name": "FC000XXXXXXX",
+  "version": "0.1.0",
+  "description": "Firechip - Micro Crystal RV-8263 Arduino Library a Real-Time Clock Module with I2C-Bus",
+  "keywords": "RV8263, RV8263C7, RV-8263, RV-8263-C7, RTC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firechip/Firechip_RV-8263_Arduino_Library.git"
+  },
+  "authors": [
+    {
+      "name": "Alexander Salas Bastidas",
+      "email": "ajsb85@firechip.dev",
+      "url": "https://firechip.dev"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://firechip.dev/",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": "FC000XXXXXXX.h",
+  "examples": [
+    {
+      "name": "Example1-Set_Time",
+      "base": "examples/Example1-Set_Time",
+      "files": [
+        "Example1-Set_Time.ino"
+      ]
+    }
+  ],
+  "export": {
+    "exclude": [
+      ".gitattributes",
+      ".gitignore",
+      ".editorconfig",
+      ".codespellrc",
+      ".github/*",
+      "keywords.txt",
+      "SUPPORT.md",
+      "SECURITY.md",
+      "CONTRIBUTING.md",
+      "CODE_OF_CONDUCT.md"
+    ]
+  }
+}

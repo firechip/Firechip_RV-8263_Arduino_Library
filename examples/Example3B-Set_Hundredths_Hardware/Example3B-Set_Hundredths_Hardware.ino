@@ -17,9 +17,9 @@
     Open the serial monitor at 115200 baud
 */
 
-#include <SparkFun_RV8803.h> //Get the library here:http://librarymanager/All#SparkFun_RV-8803
+#include <FC000XXXXXXX.h> //Get the library here:http://librarymanager/All#SparkFun_RV-8803
 
-RV8803 rtc;
+RV8263 rtc;
 
 #define EVI_TRIGGER_PIN 13 //If you have a 3.3V microcontroller or a logic level converter, you can connect this pin to trigger the reset of the hundredths register
 
@@ -38,7 +38,7 @@ void setup()
   Serial.println("RTC online!");
 
   rtc.disableHardwareInterrupt(EVI_INTERRUPT); //Disbale the interrupt so we don't accidentally cause any based on this
-  rtc.setEVICalibration(RV8803_ENABLE); //Sets the RTC to reset the hundredths register on button press or an external event. Must be run before the external event that you want to capture occurs.
+  rtc.setEVICalibration(RV8263_ENABLE); //Sets the RTC to reset the hundredths register on button press or an external event. Must be run before the external event that you want to capture occurs.
 
   pinMode(EVI_TRIGGER_PIN, OUTPUT);
   digitalWrite(EVI_TRIGGER_PIN, HIGH); //Only write the pin HIGH if you are using a 3.3V microcontroller
@@ -59,7 +59,7 @@ void loop()
       Serial.println(hundredths);
       delay(10);
       digitalWrite(EVI_TRIGGER_PIN, HIGH);
-      rtc.setEVICalibration(RV8803_ENABLE); //Set the register once more to prepare it for another event
+      rtc.setEVICalibration(RV8263_ENABLE); //Set the register once more to prepare it for another event
     }
   }
 

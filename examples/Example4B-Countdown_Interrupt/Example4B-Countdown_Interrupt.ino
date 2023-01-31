@@ -17,9 +17,9 @@
     Open the serial monitor at 115200 baud
 */
 
-#include <SparkFun_RV8803.h> //Get the library here:http://librarymanager/All#SparkFun_RV-8803
+#include <FC000XXXXXXX.h> //Get the library here:http://librarymanager/All#SparkFun_RV-8803
 
-RV8803 rtc;
+RV8263 rtc;
 
 long lastInterruptTime = 0;
 

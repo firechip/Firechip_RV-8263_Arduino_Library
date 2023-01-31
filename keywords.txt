@@ -4,7 +4,7 @@
 # Class
 ###################################################################
 
-RV8803	KEYWORD1
+RV8263	KEYWORD1
 
 ###################################################################
 # Methods and Functions
@@ -174,5 +174,5 @@ FALLING_EDGE						LITERAL1
 EVI_CAPTURE_ENABLE					LITERAL1
 EVI_CAPTURE_DISABLE					LITERAL1
 
-RV8803_ENABLE						LITERAL1
-RV8803_DISABLE						LITERAL1
+RV8263_ENABLE						LITERAL1
+RV8263_DISABLE						LITERAL1

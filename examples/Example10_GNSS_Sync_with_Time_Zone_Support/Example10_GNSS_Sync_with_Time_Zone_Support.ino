@@ -13,7 +13,7 @@
   The time zone is set in quarter hours (increments 15 mins).
   If your time zone is 7 hours behind UTC, the offset is -28.
   If daylight saving is still in effect, Mountain Time is 6 hours behind UTC. The offset is -24 quarter hours.
-  The time zone is stored in battery-backed memory inside the RV8803.
+  The time zone is stored in battery-backed memory inside the RV8263.
 
   Note: the GNSS outputs its PVT (Position, Velocity, Time) message slightly ahead of time. The
   true "top of second" is indicated by the timing pulse / pulse per second pin. To set the time
@@ -39,9 +39,9 @@
 //#define myTimeZone 4   // This will set the RTC to UK Summer Time, 1 hour ahead of UTC (4 quarter hours)
 //#define myTimeZone 0   // This will set the RTC to UTC / GMT
 
-#include <SparkFun_RV8803.h> //Get the library here: http://librarymanager/All#SparkFun_RV8803
+#include <FC000XXXXXXX.h> //Get the library here: http://librarymanager/All#SparkFun_RV8263
 
-RV8803 rtc;
+RV8263 rtc;
 
 #include <SparkFun_u-blox_GNSS_Arduino_Library.h> //Click here to get the library: http://librarymanager/All#SparkFun_u-blox_GNSS
 
