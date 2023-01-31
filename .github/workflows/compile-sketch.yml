@@ -114,7 +114,7 @@ jobs:
             - examples/Example9_Time_Zone_Support
           enable-warnings-report: true
           enable-deltas-report: true
-          verbose: true
+          verbose: false
 
     # outputs:
     #   report-artifact-name: ${{ steps.report-artifact-name.outputs.report-artifact-name }}
