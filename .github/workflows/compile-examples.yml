@@ -95,6 +95,7 @@ jobs:
             # Install the library from the local path.
             - source-path: ./
             - name: FC0003390327
+            - name: SparkFun_u-blox_GNSS
           sketch-paths: |
             # Sketches to compile for all boards
             - examples/Example1-Set_Time
