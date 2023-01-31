@@ -38,7 +38,7 @@ void setup()
   Serial.println("RTC online!");
 
   //To configure a periodic interrupt, we'll need to do some math to figure out how to set our registers. We are able to change how many clock ticks we want to count (0-4095), and also the length of each clock tick. (4 options: 4096 Hz, 64 Hz, 1 Hz, 1/60 Hz)
-  //The time ranges covered by each freqeuncy setting are as follows
+  //The time ranges covered by each frequency setting are as follows
   //4096 Hz: 244.14 uS - .9998 Second;                            244.14 uS per LSB             COUNTDOWN_TIMER_FREQUENCY_4096_HZ
   //64 Hz: 15.625 mS - 63.984 Seconds;                            15.625 mS per LSB             COUNTDOWN_TIMER_FREQUENCY_64_HZ
   //1 Hz: 1 Second - 4095 Seconds (68 minutes 16 seconds);        1 Second per LSB              COUNTDOWN_TIMER_FREQUENCY_1_HZ

@@ -37,7 +37,7 @@ void setup()
   }
   Serial.println("RTC online!");
 
-  rtc.disableHardwareInterrupt(EVI_INTERRUPT); //Disbale the interrupt so we don't accidentally cause any based on this
+  rtc.disableHardwareInterrupt(EVI_INTERRUPT); //Disable the interrupt so we don't accidentally cause any based on this
   rtc.setEVICalibration(RV8263_ENABLE); //Sets the RTC to reset the hundredths register on button press or an external event. Must be run before the external event that you want to capture occurs.
 
   pinMode(EVI_TRIGGER_PIN, OUTPUT);

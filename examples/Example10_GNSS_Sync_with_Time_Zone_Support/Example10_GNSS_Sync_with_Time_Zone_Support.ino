@@ -152,7 +152,7 @@ void loop()
 {
   if (myGNSS.getPVT() == true) // Get the latest GNSS time
   {
-    // Delay reading the RTC by a small ammount
+    // Delay reading the RTC by a small amount
     //
     // The RTC and GNSS are now closely synchronised.
     // But there will be small timing differences when we read them over I2C.
