@@ -1,7 +1,7 @@
 Firechip - Micro Crystal RV-8263 Arduino Library
 ==============================
 
-[![PlatformIO Registry](https://badges.registry.platformio.org/packages/firechip/library/FC000XXXXXXX.svg)](https://registry.platformio.org/libraries/firechip/FC000XXXXXXX)
+[![PlatformIO Registry](https://badges.registry.platformio.org/packages/firechip/library/FC0005748911.svg)](https://registry.platformio.org/libraries/firechip/FC0005748911)
 [![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Report Size Deltas](https://github.com/firechip/Firechip_RV-8263_Arduino_Library/actions/workflows/report-size-deltas.yml/badge.svg)](https://github.com/firechip/Firechip_RV-8263_Arduino_Library/actions/workflows/report-size-deltas.yml)
 [![Compile Examples](https://github.com/firechip/Firechip_RV-8263_Arduino_Library/actions/workflows/compile-examples.yml/badge.svg)](https://github.com/firechip/Firechip_RV-8263_Arduino_Library/actions/workflows/compile-examples.yml)
@@ -28,8 +28,8 @@ Where:
 
 The library support any of these:
 
-* RV-8263-C7TAQC
-* RV-8263-C7TAQA
+* RV-8263-C7-32.768KHZ-20PPM-TA-QA
+* RV-8263-C7-32.768KHZ-20PPM-TA-QC
 
 © 2023 Firechip SL.
 

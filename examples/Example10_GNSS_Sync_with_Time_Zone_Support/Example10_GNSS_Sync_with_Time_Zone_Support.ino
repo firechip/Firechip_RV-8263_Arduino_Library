@@ -39,7 +39,7 @@
 //#define myTimeZone 4   // This will set the RTC to UK Summer Time, 1 hour ahead of UTC (4 quarter hours)
 //#define myTimeZone 0   // This will set the RTC to UTC / GMT
 
-#include <FC000XXXXXXX.h> //Get the library here: http://librarymanager/All#SparkFun_RV8263
+#include <FC0005748911.h> //Get the library here: http://librarymanager/All#SparkFun_RV8263
 
 RV8263 rtc;
 

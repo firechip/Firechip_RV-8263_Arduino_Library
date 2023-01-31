@@ -31,7 +31,7 @@
 
 //#define useAVR // Uncomment this line if you are running this on an older AVR-like board
 
-#include <FC000XXXXXXX.h> //Get the library here: http://librarymanager/All#SparkFun_RV8263
+#include <FC0005748911.h> //Get the library here: http://librarymanager/All#SparkFun_RV8263
 
 RV8263 rtc;
 

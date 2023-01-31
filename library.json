@@ -1,5 +1,5 @@
 {
-  "name": "FC000XXXXXXX",
+  "name": "FC0005748911",
   "version": "0.1.0",
   "description": "Firechip - Micro Crystal RV-8263 Arduino Library a Real-Time Clock Module with I2C-Bus",
   "keywords": "RV8263, RV8263C7, RV-8263, RV-8263-C7, RTC",
@@ -18,13 +18,97 @@
   "homepage": "https://firechip.dev/",
   "frameworks": "arduino",
   "platforms": "*",
-  "headers": "FC000XXXXXXX.h",
+  "headers": "FC0005748911.h",
   "examples": [
     {
       "name": "Example1-Set_Time",
       "base": "examples/Example1-Set_Time",
       "files": [
         "Example1-Set_Time.ino"
+      ]
+    },
+    {
+      "name": "Example2-Print_Time",
+      "base": "examples/Example2-Print_Time",
+      "files": [
+        "Example2-Print_Time.ino"
+      ]
+    },
+    {
+      "name": "Example3A-Set_Hundredths_Software",
+      "base": "examples/Example3A-Set_Hundredths_Software",
+      "files": [
+        "Example3A-Set_Hundredths_Software.ino"
+      ]
+    },
+    {
+      "name": "Example3B-Set_Hundredths_Hardware",
+      "base": "examples/Example3B-Set_Hundredths_Hardware",
+      "files": [
+        "Example3B-Set_Hundredths_Hardware.ino"
+      ]
+    },
+    {
+      "name": "Example4A-Alarm_Interrupt",
+      "base": "examples/Example4A-Alarm_Interrupt",
+      "files": [
+        "Example4A-Alarm_Interrupt.ino"
+      ]
+    },
+    {
+      "name": "Example4B-Countdown_Interrupt",
+      "base": "examples/Example4B-Countdown_Interrupt",
+      "files": [
+        "Example4B-Countdown_Interrupt.ino"
+      ]
+    },
+    {
+      "name": "Example4C-Periodic_Interrupt",
+      "base": "examples/Example4C-Periodic_Interrupt",
+      "files": [
+        "Example4C-Periodic_Interrupt.ino"
+      ]
+    },
+    {
+      "name": "Example5-Timestamp",
+      "base": "examples/Example5-Timestamp",
+      "files": [
+        "Example5-Timestamp.ino"
+      ]
+    },
+    {
+      "name": "Example6-Fine_Tuning",
+      "base": "examples/Example6-Fine_Tuning",
+      "files": [
+        "Example6-Fine_Tuning.ino"
+      ]
+    },
+    {
+      "name": "Example7-Print_Epoch",
+      "base": "examples/Example7-Print_Epoch",
+      "files": [
+        "Example7-Print_Epoch.ino"
+      ]
+    },
+    {
+      "name": "Example8-Set_Epoch",
+      "base": "examples/Example8-Set_Epoch",
+      "files": [
+        "Example8-Set_Epoch.ino"
+      ]
+    },
+    {
+      "name": "Example9_Time_Zone_Support",
+      "base": "examples/Example9_Time_Zone_Support",
+      "files": [
+        "Example9_Time_Zone_Support.ino"
+      ]
+    },
+    {
+      "name": "Example10_GNSS_Sync_with_Time_Zone_Support",
+      "base": "examples/Example10_GNSS_Sync_with_Time_Zone_Support",
+      "files": [
+        "Example10_GNSS_Sync_with_Time_Zone_Support.ino"
       ]
     }
   ],
