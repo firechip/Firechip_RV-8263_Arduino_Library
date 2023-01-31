@@ -97,6 +97,7 @@ jobs:
           fqbn: ${{ matrix.board.fqbn }}
           libraries: |
             - source-path: ./
+            - name: SparkFun u-blox GNSS Arduino Library
           sketch-paths: |
             - examples/Example1-Set_Time
             - examples/Example10_GNSS_Sync_with_Time_Zone_Support
