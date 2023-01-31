@@ -18,6 +18,7 @@
 */
 
 #include <FC000XXXXXXX.h> //Get the library here:http://librarymanager/All#FC000XXXXXXX
+#define ENABLE true
 
 RV8263 rtc;
 
