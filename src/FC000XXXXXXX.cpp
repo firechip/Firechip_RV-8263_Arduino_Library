@@ -654,7 +654,7 @@ bool RV8263::setWeekday(uint8_t value) // value is anywhere between 0=sunday and
   return setTime(_time, TIME_ARRAY_LENGTH);
 }
 
-// Move the hours, mins, sec, etc registers from RV-8803 into the _time array
+// Move the hours, mins, sec, etc registers from RV-8263 into the _time array
 // Needs to be called before printing time or date
 // We do not protect the GPx registers. They will be overwritten. The user has plenty of RAM if they need it.
 bool RV8263::updateTime()

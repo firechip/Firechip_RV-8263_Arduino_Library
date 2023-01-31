@@ -1,5 +1,5 @@
 /*
-  Prints the UNIX Epoch time from the RV-8803 Real Time Clock
+  Prints the UNIX Epoch time from the RV-8263 Real Time Clock
   By: Andy England
   SparkFun Electronics
   Updated by: Adam Garbo
@@ -18,7 +18,7 @@
     Open the serial monitor at 115200 baud
 */
 
-#include <FC000XXXXXXX.h> //Get the library here:http://librarymanager/All#SparkFun_RV-8803
+#include <FC000XXXXXXX.h> //Get the library here:http://librarymanager/All#FC000XXXXXXX
 
 RV8263 rtc;
 

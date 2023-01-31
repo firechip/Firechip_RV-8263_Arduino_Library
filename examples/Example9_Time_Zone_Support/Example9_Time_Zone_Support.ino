@@ -1,5 +1,5 @@
 /*
-  Set the RV-8803 Real Time Clock using UNIX Epoch time and your local time zone
+  Set the RV-8263 Real Time Clock using UNIX Epoch time and your local time zone
   By: Paul Clark
   SparkFun Electronics
   Date: October 21st 2022
